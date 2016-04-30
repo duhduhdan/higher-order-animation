@@ -58,7 +58,11 @@ export default FadeInUpOnMount(Title, props)
 ```javascript
 import React, {
   ...
+<<<<<<< HEAD
 } from 'react-native'
+=======
+} from 'react-native';
+>>>>>>> 5ef7986b59b53c094d9dc1d76c7738f4b2decec8
 
 import CardItem from 'card/item/path'
 import Button from 'button/path/button.ios'
