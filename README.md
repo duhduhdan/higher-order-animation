@@ -5,6 +5,8 @@ HOACs accept a default props object for persisting animations throughout the app
 
 There are no additional dependencies outside of the React Native ecosystem at this time.
 
+## Animations
+
 ### FadeInUpOnMount
 Lowers opacity and moves component along the y-axis on `componentDidMount`
 
@@ -23,9 +25,9 @@ Lowers opacity on `componentDidMount`
 * opacityTo
 * opacityDuration
 
-### Examples
+## Examples
 
-#### Persistent animation
+### Persistent animation
 ```javascript
 import React, {
   ...
@@ -53,7 +55,7 @@ const Title = ({ title }) => (
 export default FadeInUpOnMount(Title, props)
 ```
 
-#### Non-persistent animation
+### Non-persistent animation
 
 ```javascript
 import React, {
