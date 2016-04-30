@@ -15,7 +15,7 @@ const FadeInOnMount = (Wrapped, animConfig) => class extends Component {
     super(props)
     this.state = {
       fadeIn: new Animated.Value(0),
-    };
+    }
   }
 
   componentDidMount() {
@@ -31,7 +31,7 @@ const FadeInOnMount = (Wrapped, animConfig) => class extends Component {
   }
 
   render() {
-    const { ...rest } = this.props;
+    const { ...rest } = this.props
 
     return (
       <Animated.View style={{opacity: this.state.fadeIn}}>
