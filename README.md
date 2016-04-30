@@ -50,7 +50,7 @@ const Title = ({ title }) => (
   </View>
 )
 
-export default FadeInAndUpOnMount(Title, props)
+export default FadeInUpOnMount(Title, props)
 ```
 
 #### Non-persistent animation
