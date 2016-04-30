@@ -60,6 +60,7 @@ import React, {
   ...
 } from 'react-native';
 
+import CardItem from 'card/item/path'
 import Button from 'button/path/button.ios'
 import FadeInOnMount from 'path/to/fadeInOnMount.ios'
 
