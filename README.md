@@ -84,7 +84,7 @@ const Card = ({ person }) => (
 
 ## HOAC Todos
 
-This is in an early concept stage right now, I mostly want to see if this can be a useful pattern or not.
+This is in an early concept stage right now. I mostly want to see if this can be a useful pattern or not.
 
 #### Animations
 * Parallax scrolling
